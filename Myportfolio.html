@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashok's Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background: #222; color: white; padding: 20px 0; text-align: center; font-size: 26px; font-weight: bold; }
+        nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        nav ul li { margin: 10px; }
+        nav ul li a { color: white; text-decoration: none; font-size: 18px; padding: 8px 12px; transition: all 0.3s; border-radius: 5px; }
+        nav ul li a:hover { background: #f4b400; color: #222; }
+        section { padding: 40px; margin: 20px auto; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); max-width: 900px; text-align: center; }
+        h2 { color: #222; border-bottom: 3px solid #f4b400; display: inline-block; padding-bottom: 5px; margin-bottom: 15px; }
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; justify-content: center; }
+        .project-container { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); text-align: center; }
+        .project-container img { width: 100%; height: auto; border-radius: 10px; }
+        .project-container h3 { margin: 10px 0; }
+        .project-container p { margin: 10px 0; }
+        .project-container a { display: inline-block; padding: 10px 15px; background: black; color: white; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+        .project-container a:hover { background: #333; }
+        .skills-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; padding: 0; list-style: none; text-align: center; }
+        .skills-container li { background: black; color: white; padding: 10px; border-radius: 5px; font-size: 16px; font-weight: bold; }
+
+        .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.project-container img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Ashok, a passionate Java Full Stack Developer skilled in Spring Boot, HTML, CSS, Bootstrap, and database management. I love building scalable applications and solving real-world problems through technology.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-container">
+                <img src="Bank.jpg" alt="Banking Management System">
+                <h3>Banking Management System</h3>
+                <p>Developed a Banking Management System using core Java.</p>
+                <a href="https://github.com/ashokkota08/BankingManagementSystem.git" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-container">
+                <img src="LifeBridge.jpg" alt="LifeBridge">
+                <h3>LifeBridge</h3>
+                <p>Developed a comprehensive hospital management platform using Servlets and JSP.</p>
+                <a href="https://github.com/ashokkota08/LifeBridge.git" target="_blank">View on GitHub</a>
+            </div>
+
+            <div class="project-container">
+                <img src="AnimalGuide.jpg"alt="AnimalGuide">
+                <h3>AnimalGuide</h3>
+                <p>created a web application called Animal Guide using Spring MVC.</p>
+                <a href="https://github.com/ashokkota08/AnimalGuide.git" target="_blank">View on GitHub</a>
+            </div>
+         
+
+            <div class="project-container">
+                <img src="Ecom.jpg" alt="e-commerce">
+                <h3>E Dhukan</h3>
+                <p>developed an E-Commerce Application using Spring Boot, designed to efficiently handle product management with a well-structured and
+                    scalable architecture</p>
+                <a href="#" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-container">
+            <li>Core Java</li>
+            <li>JDBC</li>
+            <li>JSP & Servlets</li>
+            <li>Hibernate</li>
+            <li>Spring Boot</li>
+            <li>REST APIs</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+           
+            
+            
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:ashokbabukota08@gmail.com">ashokbabukota08@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ashok-babu-kota-97541a27a/">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/ashokkota08/">github.com/yourprofile</a></p>
+    </section>
+</body>
+</html>
